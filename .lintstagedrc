@@ -1,0 +1,4 @@
+{
+  "*/**/*.{js,jsx}": ["prettier --write", "eslint --fix", "eslint", "yarn test --passWithNoTests"],
+  "*/**/*.{json,css,md}": ["prettier --write"]
+}
